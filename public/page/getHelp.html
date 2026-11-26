@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="../../public/css/output.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<style type="text/tailwindcss">
+    <style type="text/tailwindcss">
       @theme {
         --font-sans: "Inter", sans-serif;
         --font-poppins: "Poppins", sans-serif;
@@ -33,7 +33,7 @@
         <ul class="hidden lg:flex items-center gap-8 text-sm font-medium">
           <li><a href="../../index.html" class="pb-1 hover:text-brand-600">home</a></li>
           <li><a href="../../index.html#issue" class="hover:text-brand-600 pb-1">The issue</a></li>
-          <li class="border-b-2 border-brand-600 text-brand-600"><a href="./getHelp.html" class=" pb-1">Get help</a></li>
+          <li class="border-b-2 border-brand-600 text-brand-600"><a href="./getHelp.html" class="pb-1">Get help</a></li>
           <li><a href="./takeAction.html" class="hover:text-brand-600 pb-1">Take action</a></li>
           <li>
             <details class="relative">
@@ -46,7 +46,11 @@
             </details>
           </li>
         </ul>
-        <a href="./public/page/getHelp.html#now" class="hidden lg:block items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-2.5 text-xs font-bold whitespace-nowrap uppercase sm:px-5 sm:text-sm text-white shadow-md shadow-brand-500/30 transition hover:bg-brand-700">Get help now</a>
+        <a
+          href="./public/page/getHelp.html#now"
+          class="hidden lg:block items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-2.5 text-xs font-bold whitespace-nowrap uppercase sm:px-5 sm:text-sm text-white shadow-md shadow-brand-500/30 transition hover:bg-brand-700"
+          >Get help now</a
+        >
 
         <details class="relative lg:hidden">
           <summary class="list-none ring-1 ring-brand-200 rounded-full size-8 grid place-items-center">
@@ -65,7 +69,11 @@
               <a href="./takeAction.html" class="block rounded-lg px-3 py-2 hover:bg-brand-50">Take action</a>
             </li>
             <li>
-              <a href="./getHelp.html#now" class="block items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-2.5 text-xs font-bold whitespace-nowrap uppercase sm:px-5 sm:text-sm text-white shadow-md shadow-brand-500/30 transition hover:bg-brand-700">Get help now</a>
+              <a
+                href="./getHelp.html#now"
+                class="block items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-2.5 text-xs font-bold whitespace-nowrap uppercase sm:px-5 sm:text-sm text-white shadow-md shadow-brand-500/30 transition hover:bg-brand-700"
+                >Get help now</a
+              >
             </li>
             <li class="border-t border-brand-100 pt-2 text-sm">
               EN · <a href="#">FR</a> · <a href="#" lang="ar">العربية</a>
@@ -75,7 +83,34 @@
       </nav>
     </header>
     <main>
-        <section class="max-w-7xl mx-auto  text-white mt-2 mb-12 -z-10 relative  h-[90vh]  flex items-center justify-end px-8 rounded-xl overflow-hidden before:absolute before:inset-0 before:bg-[url(../../public/image/Gemini_Generated_Image_a8ymt1a8ymt1a8ym.jfif)] before:bg-cover before:bg-left  before:-z-10 before:bg-black/50"></section>
+      <section id="now" class="mx-auto w-full max-w-6xl px-4 md:px-6 mt-6">
+        <div
+          class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-100 via-brand-50 to-white grid md:grid-cols-2">
+          <div class="relative space-y-5 p-7 md-12">
+            <h1 class="text-balance text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl lg:w-72">
+              You are not alone. <span class="text-brand-600 block">Support starts here.</span>
+            </h1>
+            <p class="text-lg leading-relaxed text-ink-500">
+              You deserve safety, dignity and support. Help is available.
+            </p>
+          </div>
+          <img
+            src="../image/hope-woman.webp"
+            alt=""
+            class="h-64 w-full object-cover sm:h-80 md:h-full md:min-h-[440px] [mask-image:linear-gradient(to_bottom,transparent,black_25%)] md:[mask-image:linear-gradient(to_right,transparent,black_30%)]" />
+        </div>
+        <div class="relative mx-3 -mt-8 bg-gradient-to-r from-white to-brand-50 flex flex-col md:flex-row gap-5 p-5 md:p-7 ring-1 ring-brand-100 rounded-3xl shadow-lg ">
+          <span class="grid place-items-center size-14 bg-danger rounded-full text-2xl text-white"><i class="bi bi-telephone-fill"></i></span>
+          <div class="flex-1">
+            <h2 class="text-xl font-bold text-danger">In immediate danger? </h2>
+            <p class="">Contact emergency services.</p>
+          </div>
+          <div class="flex gap-3">
+            <a href="tel:19" class="bg-danger px-6 py-2 text-center text-white hover:bg-red-600 rounded-2xl"><span class="text-sm font-semibold block">Police</span><span class="text-3xl font-bold">19</span></a>
+            <a href="tel:15" class="bg-danger px-6 py-2 text-center text-white hover:bg-red-600 rounded-2xl"><span class="text-sm font-semibold block">SAMU</span><span class="text-3xl font-bold">15</span></a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="mt-12 bg-ink-800 text-white">
       <div class="mx-auto max-w-6xl px-2 md:px-6 lg:px-0 grid gap-10 py-12 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4">
