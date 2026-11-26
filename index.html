@@ -30,7 +30,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="sticky top-0 bg-white/80 shadow-sm backdrop-blur">
+    <header class="sticky top-0 z-50 bg-white/80 shadow-sm backdrop-blur">
       <nav class="md:max-w-6xl md:px-5 mx-auto flex justify-between items-center gap-6 py-3">
         <a href="#" class="text-base font-extrabold">16 Days Activism 2026</a>
         <ul class="hidden lg:flex items-center gap-8 text-sm font-medium">
@@ -82,35 +82,60 @@
       </nav>
     </header>
     <main>
-      <section class="max-w-7xl mx-auto pt-6">
-        <div class="grid md:grid-cols-2 relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-100 via-brand-50 to-white">
+      <section class="max-w-6xl mx-auto pt-6">
+        <div
+          class="grid md:grid-cols-2 relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-100 via-brand-50 to-white">
           <div class="p-7 space-y-6 md:p-12">
-            <h1 class="text-4xl leading-[1.08] text-balance font-bold tracking-tight md:text-5xl lg:text-6xl">A future free from violence starts with <span class=" text-brand-500">US.</span></h1>
+            <h1 class="text-4xl leading-[1.08] text-balance font-bold tracking-tight md:text-5xl lg:text-6xl">
+              A future free from violence starts with <span class="text-brand-500">US.</span>
+            </h1>
             <p class="text-lg leading-relaxed text-ink-700">16 Days of Activism against Gender-Based Violence</p>
             <p><strong>25 November – 10 December 2026</strong></p>
             <div class="flex flex-wrap items-center gap-6">
-              <a href="" class="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:bg-brand-700">Learn more <i class="bi bi-arrow-right"></i></a>
-              <a href="" class="inline-flex items-center gap-3 font-semibold text-ink-900 hover:text-brand-600"><span class=" grid size-11 place-items-center rounded-full bg-white text-xl text-ink-900 shadow-lg"><i class="bi bi-play-fill"></i></span>Watch the campaign</a>
+              <a
+                href=""
+                class="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:bg-brand-700"
+                >Learn more <i class="bi bi-arrow-right"></i
+              ></a>
+              <a href="" class="inline-flex items-center gap-3 font-semibold text-ink-900 hover:text-brand-600"
+                ><span class="grid size-11 place-items-center rounded-full bg-white text-xl text-ink-900 shadow-lg"
+                  ><i class="bi bi-play-fill"></i></span
+                >Watch the campaign</a
+              >
             </div>
           </div>
-          <img src="./public/image/hero-community.webp" alt="" class="h-64 w-full object-cover sm:h-80 md:h-full md:min-h-[440px] [mask-image:linear-gradient(to_bottom,transparent,black_25%)] md:[mask-image:linear-gradient(to_right,transparent,black_30%)]">
+          <img
+            src="./public/image/hero-community.webp"
+            alt=""
+            class="h-64 w-full object-cover sm:h-80 md:h-full md:min-h-[440px] [mask-image:linear-gradient(to_bottom,transparent,black_25%)] md:[mask-image:linear-gradient(to_right,transparent,black_30%)]" />
         </div>
       </section>
-      <section
-        class="max-w-7xl mt-2 flex mx-auto relative md:h-[50vh] p-3 bg-[url(./public/image/Gemini_Generated_Image_582tf5582tf5582t.jfif)] h-full bg-size-[29rem] sm:bg-size-[48rem] lg:bg-cover bg-no-repeat bg-center">
-        <div class="text-white space-y-10">
-          <h2 class="text-5xl font-bold w-100">Violence it never love. Violence is never acceptable.</h2>
-          <p class="text-4xl font-bold w-70">Real strength means respect.</p>
-          <div class="">
-            <p><span>icon</span> Never use physical violence</p>
-            <p><span>icon</span> Respect boundaries</p>
-            <p><span>icon</span> Challenge harmful atittudes</p>
-            <p><span>icon</span> Be an ally</p>
+      <section class="mx-auto max-w-6xl md:px-6 lg:px-0 mt-6">
+        <div class="relative isolate overflow-hidden rounded-3xl bg-ink-900 text-white">
+          <img
+            src="./public/image/men-real-strength.webp"
+            width="1000"
+            height="1000"
+            alt=""
+            class="absolute -z-10 size-full object-cover object-right grayscale" />
+          <div class="absolute inset-0 -z-10 bg-gradient-to-r from-ink-900 via-ink-900/85 to-ink-900/10"></div>
+          <div class="max-w-lg space-y-5 p-7 pb-24 md:p-12">
+            <h2 class="text-balance text-2xl leading-tight font-bold md:text-4xl">Violence is never love. Violence is never acceptable.</h2>
+            <p class="font-display text-2xl font-bold text-brand-500 md:text-3xl">Real strength means respect.</p>
+            <ul class="space-y-2.5">
+              <li class="flex items-start gap-3">
+                <i class="bi bi-check-circle-fill text-brand-500"></i>Never use physical violence
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="bi bi-check-circle-fill text-brand-500"></i>Respect boundaries
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="bi bi-check-circle-fill text-brand-500"></i>Challenge harmful attitudes
+              </li>
+              <li class="flex items-start gap-3"><i class="bi bi-check-circle-fill text-brand-500"></i>Be an ally</li>
+            </ul>
           </div>
-          <span class="absolute bottom-0 right-5"
-            ><p>stop</p>
-            <p>violence</p></span
-          >
+          <p class="sticker absolute right-6 bottom-6">Stop<br />violence</p>
         </div>
       </section>
       <section class="max-w-6xl mt-2">
