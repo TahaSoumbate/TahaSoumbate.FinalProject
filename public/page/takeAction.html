@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="../../public/css/output.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "Inter", sans-serif;
+        --font-poppins: "Poppins", sans-serif;
+
+        --color-brand-50: #fff7f0;
+        --color-brand-100: #ffebdc;
+        --color-brand-200: #fdd9bf;
+        --color-brand-500: #f26b1d;
+        --color-brand-600: #d14310;
+        --color-brand-700: #a8350c;
+        --color-danger: #c81e1e;
+        --color-ink-500: #6b635d;
+        --color-ink-700: #3f3a36;
+        --color-ink-800: #2a2725;
+        --color-ink-900: #1c1b1a;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50 bg-white/80 shadow-sm backdrop-blur">
+      <nav class="md:max-w-6xl md:px-5 mx-auto flex justify-between items-center gap-6 py-3">
+        <a href="../../index.html" class="text-base font-extrabold">16 Days Activism 2026</a>
+        <ul class="hidden lg:flex items-center gap-8 text-sm font-medium">
+          <li><a href="../../index.html" class="pb-1 hover:text-brand-600">home</a></li>
+          <li><a href="../../index.html#issue" class="hover:text-brand-600 pb-1">The issue</a></li>
+          <li><a href="./getHelp.html" class="pb-1 hover:text-brand-600">Get help</a></li>
+          <li class="border-b-2 border-brand-600 text-brand-600">
+            <a href="./takeAction.html" class="pb-1">Take action</a>
+          </li>
+          <li>
+            <details class="relative">
+              <summary class="list-none">EN <i class="bi bi-chevron-down"></i></summary>
+              <ul
+                class="absolute space-y-0.5 right-0.5 w-15 mt-3 bg-white p-2 shadow-md rounded-md ring-1 ring-brand-100">
+                <li><a href="" class="block px-3 py-1.5 rounded-sm bg-brand-50">FR</a></li>
+                <li><a href="" class="block px-3 py-1.5 rounded-sm bg-brand-50">AR</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+        <a
+          href="./public/page/getHelp.html#now"
+          class="hidden lg:block items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-2.5 text-xs font-bold whitespace-nowrap uppercase sm:px-5 sm:text-sm text-white shadow-md shadow-brand-500/30 transition hover:bg-brand-700"
+          >Get help now</a
+        >
+
+        <details class="relative lg:hidden">
+          <summary class="list-none ring-1 ring-brand-200 rounded-full size-8 grid place-items-center">
+            <i class="bi bi-list text-2xl"></i>
+          </summary>
+          <ul
+            class="absolute right-0 bg-white w-60 mt-3 space-y-1 rounded-b-2xl p-3 font-medium shadow-xl ring-1 ring-brand-100">
+            <li>
+              <a href="../../index.html" class="block rounded-lg px-3 py-2 bg-brand-50 text-brand-600">Home</a>
+            </li>
+            <li><a href="../../index.html#issue" class="block rounded-lg px-3 py-2 hover:bg-brand-50">The issue</a></li>
+            <li>
+              <a href="./getHelp.html" class="block rounded-lg px-3 py-2 hover:bg-brand-50">Get help</a>
+            </li>
+            <li>
+              <a href="./takeAction.html" class="block rounded-lg px-3 py-2 hover:bg-brand-50">Take action</a>
+            </li>
+            <li>
+              <a
+                href="./getHelp.html#now"
+                class="block items-center justify-center gap-2 rounded-full bg-brand-600 px-4 py-2.5 text-xs font-bold whitespace-nowrap uppercase sm:px-5 sm:text-sm text-white shadow-md shadow-brand-500/30 transition hover:bg-brand-700"
+                >Get help now</a
+              >
+            </li>
+            <li class="border-t border-brand-100 pt-2 text-sm">
+              EN · <a href="#">FR</a> · <a href="#" lang="ar">العربية</a>
+            </li>
+          </ul>
+        </details>
+      </nav>
+    </header>
+    <main>
+      <section class="mx-auto w-full max-w-6xl px-4 md:px-6 pt-6">
+        <div
+          class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-100 via-brand-50 to-white grid md:grid-cols-2">
+          <div class="relative z-10 space-y-5 p-7 md:p-12">
+            <h1 class="text-balance text-4xl leading-[1.08] font-bold tracking-tight md:text-5xl lg:text-6xl">
+              Change begins with
+              <span class="text-brand-500 italic">all of us. </span>
+            </h1>
+            <p class="text-lg leading-relaxed text-ink-700">
+              Together, we can prevent violence and build a more equal society.
+            </p>
+            <a
+              href="#ways"
+              class="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:bg-brand-700"
+              >See how you can help <i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+          <img
+            src="../image/community-sunset.webp"
+            alt=""
+            class="w-full object-cover object-right sm:h-80 md:h-full md:min-h-[440px] [mask-image:linear-gradient(to_bottom,transparent,black_25%)] md:[mask-image:linear-gradient(to_right,transparent,black_30%)]" />
+        </div>
+      </section>
+    </main>
+    <footer class="mt-12 bg-ink-800 text-white font-bold">
+      <div class="mx-auto max-w-6xl px-2 md:px-6 lg:px-0 grid gap-10 py-12 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4">
+        <div class="space-y-4">
+          <a href="">
+            <span class="text-base font-extrabold uppercase">16 Days Activism 2026</span>
+          </a>
+          <p class="text-sm text-white/70">Together against gender-based violence, 25 November – 10 December 2026.</p>
+        </div>
+        <div>
+          <h2 class="text-sm font-bold text-white">Quick links</h2>
+          <ul class="mt-3 space-y-1.5 text-sm text-white/80">
+            <li><a href="" class="hover:text-brand-500 transition">The issue</a></li>
+            <li><a href="" class="hover:text-brand-500 transition">Get help</a></li>
+            <li><a href="" class="hover:text-brand-500 transition">Take action</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="font-sans text-sm font-bold text-white">Contact</h2>
+          <ul class="mt-3 space-y-1.5 text-sm text-white/80">
+            <li>
+              <i class="bi bi-envelope-fill me-2 text-brand-500"></i
+              ><a href="mailto:contact@gmail.com" class="hover:text-brand-500 transition"
+                >contact@your-organisation.org</a
+              >
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill me-2 text-brand-500"></i
+              ><a href="tel:+212 665241236" class="hover:text-brand-500 transition">+212 665241236</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="flex gap-3 lg:items-start">
+          <li>
+            <a
+              href="#"
+              class="grid size-9 place-items-center rounded-full bg-white text-black hover:bg-brand-500 transition"
+              ><i class="bi bi-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="grid size-9 place-items-center rounded-full bg-white text-ink-900 hover:bg-brand-500 transition"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="grid size-9 place-items-center rounded-full bg-white text-ink-900 hover:bg-brand-500 transition"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="grid size-9 place-items-center rounded-full bg-white text-ink-900 hover:bg-brand-500 transition"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="pb-8">
+        <div class="flex items-center gap-4">
+          <span class="h-0.5 flex-1 bg-brand-500"></span>
+          <p class="font-display font-semibold">Together for a safer, fairer world.</p>
+          <span class="h-0.5 flex-1 bg-brand-500"></span>
+        </div>
+        <p class="mt-4 text-center text-xs text-white/60">#16Days · #OrangeTheWorld · © 2026 16 Days Activism</p>
+      </div>
+    </footer>
+  </body>
+</html>
