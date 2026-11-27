@@ -16,11 +16,29 @@
     3. [Open `index.html` in a browser, or serve the folder with any static server:](#open)
 9. [Campaign Information](#campaign-information)
 
+
 ---
+
 # About the Project
+![logo](./public/image/16%20jours%20d’activisme%202026.png)
+
 
 **16 Days Activism 2026** is a multi-page awareness website built for the 16 Days of Activism against Gender-Based Violence campaign, running **from 25 November to 10 December 2026**. The site serves as a digital platform to educate the public, provide support resources for survivors, and encourage community action to end gender-based violence (GBV).
 The campaign is built around the message: *"A future free from violence starts with US."*
+
+## website live
+
+[Go Live](https://tahasoumbate.github.io/TahaSoumbate.FinalProject/)
+
+
+
+ ![Page1](./public/image/page1.png)
+
+ ![Page2](./public/image/page2.png)
+ 
+ ![Page3](./public/image/page3.png)
+ 
+
 
 # The Problem
 
